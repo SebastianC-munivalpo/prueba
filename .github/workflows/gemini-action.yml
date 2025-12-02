@@ -31,4 +31,4 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python gemini_cli.py --prompt "Dame un consejo breve para desarrolladores junior"
+          python gemini-pro.py --prompt "Dame un consejo breve para desarrolladores junior"

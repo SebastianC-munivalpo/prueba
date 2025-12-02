@@ -10,7 +10,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # 2. Configurar el modelo
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # 3. Configurar argumentos de línea de comandos
 parser = argparse.ArgumentParser(description='Gemini CLI para GitHub Actions')

@@ -10,7 +10,7 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # 2. Intentamos usar la versión específica '001' que es la más estable
-nombre_modelo = 'gemini-1.5-flash-001'
+nombre_modelo = 'gemini-2.5-pro'
 
 try:
     # Configurar argumentos
